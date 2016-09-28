@@ -9,10 +9,11 @@ public class Thirteen {
 		
 		double save,money=0;
 		Scanner in = new Scanner(System.in);
-		DecimalFormat format = new DecimalFormat("#.00");
+		DecimalFormat format = new DecimalFormat("#.000");
 		
 		System.out.println("Enter the monthly saving amount:");
-		save = new Scanner(System.in).nextDouble();
+		save = in.nextDouble();
+		//save = new Scanner(System.in).nextDouble();
 		for(int i=1;i<=6;i++){
 			money = (save+money)*(1+0.00417);
 		}
