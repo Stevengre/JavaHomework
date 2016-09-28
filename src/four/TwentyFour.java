@@ -9,7 +9,7 @@ public class TwentyFour {
 		String[] citys = new String[3];
 		  
 		for(int i = 0;i<=2;i++){
-			System.out.println("Enter the " + i + "city");
+			System.out.println("Enter the " + i + " city");
 			citys[i] = new Scanner(System.in).nextLine();
 		}
 		Arrays.sort(citys);
