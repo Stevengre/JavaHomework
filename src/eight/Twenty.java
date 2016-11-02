@@ -14,7 +14,7 @@ public class Twenty {
 				board[i][j] = " ";
 			}
 		}
-		playGame(board);	
+		playGame(board);
 	}
 	
 	//»­Ò»¸öÆåÅÌ
